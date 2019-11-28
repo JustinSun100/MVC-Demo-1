@@ -1,0 +1,21 @@
+#app4{}
+@keyframes change{
+    0%{
+        background: red;
+    }
+    100% {
+        background: #336699;
+    }
+}
+#app4 .circle{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 50%;
+    border:1px solid purple;
+    margin-top: 60px;
+    margin-left: 100px;
+}    
+#app4 .circle.active{
+    animation: change 1s infinite alternate linear
+}
+
